@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.container{
+    width: 100%;
+    max-width: 1540px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: whitesmoke;
+    color: darkslategray;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 8%;
+    background-color: midnightblue;
+    color: white;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: deepskyblue;
+}
+
+.city-badge {
+    background-color: slateblue;
+    padding: 7px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.hero {
+    background-color: darkslateblue;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    color: lightcyan;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.legend {
+    display: inline-flex;
+    gap: 15px;
+    background-color: slateblue;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.status-dot {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: gold;
+}
+
+.red {
+    background-color: red;
+}
+
+.stations-container {
+    padding: 40px 8%;
+}
+
+.stations-container h2 {
+    margin-bottom: 25px;
+    color: midnightblue;
+}
+
+.stations-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.station-card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    border-left: 5px solid;
+}
+
+.border-green {
+    border-left-color: green;
+}
+
+.border-yellow {
+    border-left-color: gold;
+}
+
+.border-red {
+    border-left-color: red;
+}
+
+.card-header {
+    padding: 18px;
+    border-bottom: 1px solid lightgray;
+}
+
+.card-header h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: midnightblue;
+}
+
+.badge {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.badge-green {
+    background-color: lightgreen;
+    color: darkgreen;
+}
+
+.badge-yellow {
+    background-color: lightyellow;
+    color: darkgoldenrod;
+}
+
+.badge-red {
+    background-color: lightpink;
+    color: darkred;
+}
+
+.card-body {
+    padding: 18px;
+}
+
+.card-body p {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.card-body strong {
+    color: darkslateblue;
+}
+
+.update-time {
+    color: gray;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.card-footer {
+    padding: 12px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.bg-green {
+    background-color: lightgreen;
+    color: darkgreen;
+}
+
+.bg-yellow {
+    background-color: lightyellow;
+    color: darkgoldenrod;
+}
+
+.bg-red {
+    background-color: lightpink;
+    color: darkred;
+}
+
+footer {
+    background-color: midnightblue;
+    color: lightgray;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+    font-size: 13px;
+}
